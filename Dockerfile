@@ -1,3 +1,3 @@
 FROM eclipse-temurin:17
-COPY target/pratice.jar practice.jar
+COPY target/practice.jar practice.jar
 CMD ["java","-jar","practice.jar"]
